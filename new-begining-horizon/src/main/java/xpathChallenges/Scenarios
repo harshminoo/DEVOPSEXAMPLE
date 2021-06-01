@@ -1,0 +1,34 @@
+<html>
+<body>
+
+<div id="d1">
+<input type="button" id="a" value="click"/>
+</div>
+
+<div id="d2">
+<input type="button" id="a" value="click"/>
+</div>
+
+
+</body>
+</html>
+
+====================================================================================
+different divs but same attributes
+we want xpath of first element
+//div[@id='d1']/input[@id='a']
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<input id="searchInput" name="search" type="search" size="20" autofocus="autofocus" accesskey="F" dir="auto" autocomplete="off" style="padding-right: 64px;">
+<input id="searchInput" name="search" class ="abc" type="search" size="20" autofocus="autofocus" accesskey="F" dir="auto" autocomplete="off" style="padding-right: 64px;">
+<input id="abchdg" class ="abc" type="search" size="20" autofocus="autofocus" accesskey="F" dir="auto" autocomplete="off" style="padding-right: 64px;">
+
+Two element same to same
+
+//input[@id='searchInput'][@class='abc']
+//input[@id='searchInput' and @class='abc']
+
+
+
+
+
