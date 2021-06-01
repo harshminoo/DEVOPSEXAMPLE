@@ -1,0 +1,4 @@
+# Created at 2021-05-31T21:17:13.140
+Boot Manifest-JAR contains absolute paths in classpath 'D:\ECLIPSELATESTVERSION\webdriver-test-project-devops\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
